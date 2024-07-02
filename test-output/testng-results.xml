@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="11" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T22:27:09 IST" name="BrellaAssignment" finished-at="2024-07-02T22:27:35 IST" duration-ms="25799">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T22:27:09 IST" name="BrellaFormValidation" finished-at="2024-07-02T22:27:35 IST" duration-ms="25799">
+      <class name="BrellaFormValidation.FormValidationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:09 IST" name="setUp" finished-at="2024-07-02T22:27:14 IST" duration-ms="4834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormFieldPresense()[pri:1, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:14 IST" name="testFormFieldPresense" finished-at="2024-07-02T22:27:14 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormFieldPresense -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:14 IST" name="refreshPage" finished-at="2024-07-02T22:27:15 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:15 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:16 IST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:16 IST" name="refreshPage" finished-at="2024-07-02T22:27:16 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:16 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:17 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2030.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:17 IST" name="refreshPage" finished-at="2024-07-02T22:27:17 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:17 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:18 IST" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peter.mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2035.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email doesn't have @]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:18 IST" name="refreshPage" finished-at="2024-07-02T22:27:18 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:18 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:19 IST" duration-ms="605" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jack@mail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[45.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2029.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email doesn't have domain]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email doesn't have domain] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email doesn't have domain] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:19 IST" name="refreshPage" finished-at="2024-07-02T22:27:19 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:19 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:20 IST" duration-ms="700" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin@gmail.c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email doesn't have valid top-level domain]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email doesn't have valid top-level domain] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email doesn't have valid top-level domain] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:20 IST" name="refreshPage" finished-at="2024-07-02T22:27:20 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:20 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:21 IST" duration-ms="1016" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin..@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email can not have consecutive dots]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email can not have consecutive dots] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email can not have consecutive dots] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:21 IST" name="refreshPage" finished-at="2024-07-02T22:27:21 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:21 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:22 IST" duration-ms="967" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin tayler@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email can not have spaces]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email can not have spaces] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email can not have spaces] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:22 IST" name="refreshPage" finished-at="2024-07-02T22:27:23 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:23 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:24 IST" duration-ms="925" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email doesn't have local part]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email doesn't have local part] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email doesn't have local part] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:24 IST" name="refreshPage" finished-at="2024-07-02T22:27:24 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:24 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:25 IST" duration-ms="975" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin#tayler@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[email have invalid characters]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Message text should be as expected expected [email have invalid characters] but found [cool, it is done]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Message text should be as expected expected [email have invalid characters] but found [cool, it is done]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at BrellaFormValidation.FormValidationTest.testFormSubmission(FormValidationTest.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:25 IST" name="refreshPage" finished-at="2024-07-02T22:27:25 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:25 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:26 IST" duration-ms="1045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2010.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:26 IST" name="refreshPage" finished-at="2024-07-02T22:27:27 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:27 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:28 IST" duration-ms="827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2030.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:28 IST" name="refreshPage" finished-at="2024-07-02T22:27:28 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:28 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:29 IST" duration-ms="978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harry@email.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3030.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:29 IST" name="refreshPage" finished-at="2024-07-02T22:27:29 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:29 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:30 IST" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harry@email.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:30 IST" name="refreshPage" finished-at="2024-07-02T22:27:31 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:31 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:32 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harry@email.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:32 IST" name="refreshPage" finished-at="2024-07-02T22:27:32 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:32 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:33 IST" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:33 IST" name="refreshPage" finished-at="2024-07-02T22:27:33 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="testFormSubmission(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:33 IST" name="testFormSubmission" data-provider="formData" finished-at="2024-07-02T22:27:34 IST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kevin@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[@#$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2025.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[cool, it is done]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:34 IST" name="refreshPage" finished-at="2024-07-02T22:27:35 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BrellaFormValidation.FormValidationTest@7f3b84b8]" started-at="2024-07-02T22:27:35 IST" name="tearDown" finished-at="2024-07-02T22:27:35 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BrellaFormValidation.FormValidationTest -->
+    </test> <!-- BrellaFormValidation -->
+  </suite> <!-- BrellaAssignment -->
+</testng-results>
